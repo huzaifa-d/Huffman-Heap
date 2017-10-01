@@ -14,6 +14,11 @@ public class decoder {
     String encoded_path, code_table_path;
     int max_len;
 
+    public decoder()
+    {
+        this.encoded_path = "encoded.bin";
+        this.code_table_path = "code_table.txt";
+    }
     public decoder(String inp1, String inp2)
     {
         this.encoded_path = inp1;
